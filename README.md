@@ -1,5 +1,5 @@
 # Rotanimate
-A Python library/function that saves frames from a rotating 3D matplotlib plot so that you can animate them using [ImageMagick](https://www.imagemagick.org/script/command-line-processing.php)/[Gifsicle](https://www.lcdf.org/gifsicle/)/[ImageJ](https://imagej.nih.gov/ij/docs/guide/146-8.html) or your tool of choice.
+A Python library/function that saves frames from a rotating 3D matplotlib plot so that you can animate them using [ImageMagick](https://www.imagemagick.org/script/command-line-processing.php)/[Gifsicle](https://www.lcdf.org/gifsicle/)/[ImageJ](https://imagej.nih.gov/ij/docs/guide/146-8.html)/[GIMP](https://www.gimp.org/tutorials/Simple_Animations/) or your tool of choice.
 
 ## Motivation
 I wished to [explain a linear regression](https://stackoverflow.com/a/58736858/6144626) using an [animated 3d matplotlib plot](https://gist.github.com/aricooperdavis/c658fc1c5d9bdc5b50ec94602328073b#gistcomment-3076177) but couldn't find a super simple tool to do the job until I found [Zulko's "The Sugar High" blogpost](https://zulko.wordpress.com/2012/09/29/animate-your-3d-plots-with-pythons-matplotlib/). It was coded in Python 2.7 and was a little too bulky for my liking, so I've modernised it and cut it down to the bare essentials.
@@ -41,7 +41,7 @@ Calling the file from the command line generates:
 
 ![Screenshot of resultant directory](https://raw.githubusercontent.com/aricooperdavis/Rotanimate/master/directory_demo.jpeg)
 
-And after processing (I used ImageJ) the result is an animated rotating 3d matplot lib plot:
+And after animating (I used ImageJ) the result is an animated rotating 3d matplot lib plot:
 
 ![Animated example plot](https://raw.githubusercontent.com/aricooperdavis/Rotanimate/master/animated_demo.gif)
 
