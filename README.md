@@ -47,4 +47,4 @@ And after animating (I used ImageJ) the result is an animated rotating 3d matplo
 
 ## Credits
 
-*Initial code and design shamelessly stolen from [Zulko's "The Sugar High" blog](https://zulko.wordpress.com/2012/09/29/animate-your-3d-plots-with-pythons-matplotlib/)*.
+*Initial code and design shamelessly stolen from [Zulko's "The Sugar High" blog](https://web.archive.org/web/20150108185356/https://zulko.wordpress.com/2012/09/29/animate-your-3d-plots-with-pythons-matplotlib/)*.
